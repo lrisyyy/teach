@@ -14,3 +14,14 @@ Kalman_and_Bayesian_Filters_in_Python6x9.pdf
 Kalman_and_Bayesian_Filters_in_Python.pdf
 book_files
 tmp
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+*.pt
+*.onnx
+runs/
+datasets/
+videos/
+*.avi
+*.mp4
