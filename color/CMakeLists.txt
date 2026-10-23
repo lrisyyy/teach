@@ -1,7 +1,6 @@
-cmake_minimum_required(VERSION 3.10)
-project(ColorCorrect)
-
+cmake_minimum_required(VERSION 3.0)
+project(color_correct)
 find_package(OpenCV REQUIRED)
-
-add_executable(color_correct example.cpp)
-target_link_libraries(color_correct ${OpenCV_LIBS})
+include_directories(${OpenCV_INCLUDE_DIRS})
+add_executable(color example.cpp)
+target_link_libraries(color ${OpenCV_LIBS})
